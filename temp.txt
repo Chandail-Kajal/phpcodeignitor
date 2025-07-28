@@ -1,0 +1,108 @@
+
+## ✅ Create Users Table Migration
+
+### 🔧 Step 1: Create the migration file by running below command
+
+php spark make:migration CreateUsersTable
+
+This creates a file like:
+app/Database/Migrations/2024-xx-xx-CreateUsersTable.php
+
+
+### 📝 Step 2: Paste the following code in the generated file
+
+<?php
+
+namespace App\Database\Migrations;
+
+use CodeIgniter\Database\Migration;
+
+class CreateUsersTable extends Migration
+{
+    public function up()
+    {
+        $this->forge->addField([
+            'id'         => ['type' => 'INT', 'unsigned' => true, 'auto_increment' => true],
+            'name'       => ['type' => 'VARCHAR', 'constraint' => 100],
+            'email'      => ['type' => 'VARCHAR', 'constraint' => 100, 'unique' => true],
+            'password'   => ['type' => 'VARCHAR', 'constraint' => 255],
+            'created_at' => ['type' => 'DATETIME', 'null' => true],
+            'updated_at' => ['type' => 'DATETIME', 'null' => true],
+        ]);
+
+        $this->forge->addKey('id', true); // Primary Key
+        $this->forge->createTable('users');
+    }
+
+    public function down()
+    {
+        $this->forge->dropTable('users');
+    }
+}
+
+
+### ✅ Step 3: Run the migration by running below command
+php spark migrate
+
+
+---
+
+## ✅ Create UsersSeeder
+
+### 🔧 Step 1: Create the seeder file by running below command
+php spark make:seeder UsersSeeder
+
+
+This creates:
+app/Database/Seeds/UsersSeeder.php
+
+### 📝 Step 2: Paste the following code into `UsersSeeder.php`
+
+<?php
+
+namespace App\Database\Seeds;
+
+use CodeIgniter\Database\Seeder;
+
+class UsersSeeder extends Seeder
+{
+    public function run()
+    {
+        $data = [
+            [
+                'name'     => 'Admin User',
+                'email'    => 'admin@example.com',
+                'password' => password_hash('secret123', PASSWORD_DEFAULT),
+            ],
+            [
+                'name'     => 'Test User',
+                'email'    => 'test@example.com',
+                'password' => password_hash('test123', PASSWORD_DEFAULT),
+            ]
+        ];
+
+        $this->db->table('users')->insertBatch($data);
+    }
+}
+
+
+### ✅ Step 3: Seed the data into the database by running below command
+php spark db:seed UsersSeeder
+
+
+
+## ✅ Result
+
+You will now have a `users` table with two users:
+
+* **Admin User**
+
+  * Email: `admin@example.com`
+  * Password: `secret123`
+
+* **Test User**
+
+  * Email: `test@example.com`
+  * Password: `test123`
+
+These are stored securely with hashed passwords, ready to use in your login system.
