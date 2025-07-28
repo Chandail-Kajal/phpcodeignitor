@@ -58,3 +58,27 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+
+
+
+//set-up
+//step-1:  delete all tables from my_db
+//step-2:  run commands
+
+php spark migrate
+php spark db:seed UsersSeeder                         // this command will add default users
+php spark serve
+
+
+//now open http://localhost:8080/
+// this is unprotected route 
+// "http://localhost:8080/dashboard" this route is protected with email and password
+
+//after running 2nd command 2 users will be create in my_db  users table
+
+username: test1@example.com
+password: password123
+
+username: test2@example.com
+password: password123
