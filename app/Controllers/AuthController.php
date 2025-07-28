@@ -15,11 +15,11 @@ class AuthController extends ResourceController
     }
     public function login()
     {
-        //todo implement this function to login user
+        
     }
 
     public function logout(){
-        //todo implement this function to logout user
+       
     }
 }
 

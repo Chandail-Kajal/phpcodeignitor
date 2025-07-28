@@ -60,8 +60,11 @@ class EmployeeController extends ResourceController
 
 
     public function deleteEmployee()
-    {
+    { 
         try {
+            $json = $this->request->getJSON(true);
+            $empId =$json['id'];
+            $this->model->deleteData("employees",['id'=>$empId]);
         } catch (Exception $e) {
         }
 
