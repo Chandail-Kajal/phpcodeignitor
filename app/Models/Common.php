@@ -28,9 +28,15 @@ class Common extends Model
             return $builder->delete();
       }
 
-      public function getRecords($table){
-            $builder = $this->db->table($table)->where(array())->get();
+      public function getRecords($table, $where=array()){
+            $builder = $this->db->table($table)->where($where)->get();
             return $builder->getResult();
       }
+
+      public function getRecord($table, $where=array())
+      {
+            return $this->db->table($table)->where($where)->get()->getRowArray();
+      }
+
 
 }
