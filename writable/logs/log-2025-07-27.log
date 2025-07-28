@@ -1,0 +1,1205 @@
+CRITICAL - 2025-07-27 15:45:17 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-employee]
+in APPPATH/Controllers/EmployeeController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 15:46:18 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-employee]
+in APPPATH/Controllers/EmployeeController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 15:50:12 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-employee]
+in APPPATH/Controllers/EmployeeController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 15:53:54 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-employee]
+in APPPATH/Controllers/EmployeeController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 15:58:22 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-employee]
+in APPPATH/Controllers/EmployeeController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 15:58:54 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-employee]
+in APPPATH/Controllers/EmployeeController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 15:58:55 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-employee]
+in APPPATH/Controllers/EmployeeController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 15:58:57 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-employee]
+in APPPATH/Controllers/EmployeeController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:20:55 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:20:56 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:20:57 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:21:12 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:21:13 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:21:14 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:21:14 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:21:14 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:45 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:46 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:46 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:46 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:47 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:47 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:47 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:54 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:54 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:55 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:55 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:55 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:55 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:22:55 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeeController')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\EmployeeController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:36 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:37 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:37 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:38 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:38 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:38 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:38 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:38 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:38 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:39 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:39 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:39 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:25:39 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:27:03 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:27:04 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:27:04 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:27:04 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:27:04 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:27:05 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:27:05 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:27:25 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:28:56 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:37:28 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:37:50 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:37:52 --> Error: Call to undefined method App\Controllers\EmployeeController::respond()
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:38:30 --> ErrorException: Trait "App\Controllers\CodeIgniter\API\ResponseTrait" not found
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-27 16:38:31 --> ErrorException: Trait "App\Controllers\CodeIgniter\API\ResponseTrait" not found
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-27 16:41:25 --> TypeError: printf(): Argument #1 ($format) must be of type string, stdClass given
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 21.
+ 1 APPPATH/Controllers/EmployeeController.php(21): printf(Object(stdClass))
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:41:41 --> TypeError: printf(): Argument #1 ($format) must be of type string, stdClass given
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 21.
+ 1 APPPATH/Controllers/EmployeeController.php(21): printf(Object(stdClass))
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:41:42 --> TypeError: printf(): Argument #1 ($format) must be of type string, stdClass given
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 21.
+ 1 APPPATH/Controllers/EmployeeController.php(21): printf(Object(stdClass))
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:41:43 --> TypeError: printf(): Argument #1 ($format) must be of type string, stdClass given
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 21.
+ 1 APPPATH/Controllers/EmployeeController.php(21): printf(Object(stdClass))
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:42:22 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 16:42:23 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->addEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+ERROR - 2025-07-27 16:53:00 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/kajal/Downloads/MyProject/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/kajal/Downloads/MyProject/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/kajal/Downloads/MyProject/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 /Users/kajal/Downloads/MyProject/system/Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 /Users/kajal/Downloads/MyProject/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Users/kajal/Downloads/MyProject/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Users/kajal/Downloads/MyProject/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Users/kajal/Downloads/MyProject/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(388): CodeIgniter\CLI\Console->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 /Users/kajal/Downloads/MyProject/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-07-27 16:55:59 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/kajal/Downloads/MyProject/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/kajal/Downloads/MyProject/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/kajal/Downloads/MyProject/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 /Users/kajal/Downloads/MyProject/system/Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 /Users/kajal/Downloads/MyProject/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Users/kajal/Downloads/MyProject/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Users/kajal/Downloads/MyProject/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Users/kajal/Downloads/MyProject/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(388): CodeIgniter\CLI\Console->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 /Users/kajal/Downloads/MyProject/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-27 17:02:43 --> ErrorException: Access level to App\Controllers\EmployeeController::$model must be protected (as in class CodeIgniter\RESTful\BaseResource) or weaker
+[Method: POST, Route: add-emp]
+in APPPATH/Controllers/EmployeeController.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-27 17:03:53 --> ErrorException: Access level to App\Controllers\EmployeeController::$model must be protected (as in class CodeIgniter\RESTful\BaseResource) or weaker
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-27 17:03:54 --> ErrorException: Access level to App\Controllers\EmployeeController::$model must be protected (as in class CodeIgniter\RESTful\BaseResource) or weaker
+[Method: GET, Route: emp]
+in APPPATH/Controllers/EmployeeController.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-27 17:04:37 --> ArgumentCountError: Too few arguments to function App\Models\Common::getRecords(), 0 passed in /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php on line 22 and exactly 1 expected
+[Method: GET, Route: emp]
+in APPPATH/Models/Common.php on line 31.
+ 1 APPPATH/Controllers/EmployeeController.php(22): App\Models\Common->getRecords()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 17:04:38 --> ArgumentCountError: Too few arguments to function App\Models\Common::getRecords(), 0 passed in /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php on line 22 and exactly 1 expected
+[Method: GET, Route: emp]
+in APPPATH/Models/Common.php on line 31.
+ 1 APPPATH/Controllers/EmployeeController.php(22): App\Models\Common->getRecords()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+CRITICAL - 2025-07-27 17:04:39 --> ArgumentCountError: Too few arguments to function App\Models\Common::getRecords(), 0 passed in /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php on line 22 and exactly 1 expected
+[Method: GET, Route: emp]
+in APPPATH/Models/Common.php on line 31.
+ 1 APPPATH/Controllers/EmployeeController.php(22): App\Models\Common->getRecords()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/kajal/Downloads/MyProject/public/index.php')
+ERROR - 2025-07-27 17:05:11 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:05:12 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:06:54 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/kajal/Downloads/MyProject/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/kajal/Downloads/MyProject/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/kajal/Downloads/MyProject/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 /Users/kajal/Downloads/MyProject/system/Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 /Users/kajal/Downloads/MyProject/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Users/kajal/Downloads/MyProject/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Users/kajal/Downloads/MyProject/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Users/kajal/Downloads/MyProject/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(388): CodeIgniter\CLI\Console->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 /Users/kajal/Downloads/MyProject/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-07-27 17:07:00 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:07:01 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:07:02 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:07:02 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:07:03 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:07:03 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:07:03 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:07:03 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'my_db', 3306, '', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#5 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#12 {main}
+ERROR - 2025-07-27 17:09:04 --> mysqli_sql_exception: Table 'my_db.employees' doesn't exist in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/kajal/Downloads/MyProject/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/kajal/Downloads/MyProject/app/Models/Common.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/kajal/Downloads/MyProject/app/Controllers/EmployeeController.php(22): App\Models\Common->getRecords('employees')
+#6 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(933): App\Controllers\EmployeeController->getEmployees()
+#7 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#8 /Users/kajal/Downloads/MyProject/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/kajal/Downloads/MyProject/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/kajal/Downloads/MyProject/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/kajal/Downloads/MyProject/system/rewrite.php(44): require_once('/Users/kajal/Do...')
+#13 {main}
+ERROR - 2025-07-27 17:09:14 --> mysqli_sql_exception: Invalid default value for 'createdAt' in /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /Users/kajal/Downloads/MyProject/system/Database/MySQLi/Connection.php(327): mysqli->query('CREATE TABLE `e...', 0)
+#1 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 /Users/kajal/Downloads/MyProject/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 /Users/kajal/Downloads/MyProject/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 /Users/kajal/Downloads/MyProject/app/Database/Migrations/2025-07-27-164920_CreateEmployeeTable.php(31): CodeIgniter\Database\Forge->createTable('employees')
+#5 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(876): App\Database\Migrations\CreateEmployeesTable->up()
+#6 /Users/kajal/Downloads/MyProject/system/Database/MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Users/kajal/Downloads/MyProject/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/kajal/Downloads/MyProject/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/kajal/Downloads/MyProject/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/kajal/Downloads/MyProject/system/Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 /Users/kajal/Downloads/MyProject/system/Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 /Users/kajal/Downloads/MyProject/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
