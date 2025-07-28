@@ -73,8 +73,41 @@ class EmployeeController extends ResourceController
     public function updateEmployee()
     {
         try {
+            $json = $this->request->getJSON(true);
+
+            if (empty($json['id'])) {
+                return $this->failValidationError('ID is required for update.');
+            }
+
+            $requiredFields = ['name', 'age', 'skills', 'address', 'designation'];
+
+            foreach ($requiredFields as $field) {
+                if (empty($json[$field])) {
+                    return $this->failValidationError(ucfirst($field) . ' is required.');
+                }
+            }
+
+            $updateData = [
+                'name'        => $json['name'],
+                'age'         => $json['age'],
+                'skills'      => $json['skills'],
+                'address'     => $json['address'],
+                'designation' => $json['designation'],
+            ];
+
+            $empId = $json['id'];
+
+            $this->model->updateData("employees", ['id' => $empId], $updateData);
+
+            return $this->respond([
+                'status'  => 200,
+                'message' => 'Employee updated successfully',
+                'data'    => array_merge(['id' => $empId], $updateData)
+            ]);
         } catch (Exception $e) {
+            return $this->failServerError($e->getMessage());
         }
     }
+
 
 }
