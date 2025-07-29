@@ -59,16 +59,38 @@ class EmployeeController extends ResourceController
     }
 
 
+    // public function deleteEmployee()
+    // { 
+    //     try {
+    //         $json = $this->request->getJSON(true);
+    //         $empId =$json['id'];
+    //         $this->model->deleteData("employees",['id'=>$empId]);
+    //     } catch (Exception $e) {
+    //     }
+
+    // }
+
     public function deleteEmployee()
-    { 
-        try {
-            $json = $this->request->getJSON(true);
-            $empId =$json['id'];
-            $this->model->deleteData("employees",['id'=>$empId]);
-        } catch (Exception $e) {
+{
+    try {
+        $json = $this->request->getJSON(true);
+
+        if (empty($json['id'])) {
+            return $this->failValidationError('ID is required for deletion.');
         }
 
+        $empId = $json['id'];
+        $deleted = $this->model->deleteData("employees", ['id' => $empId]);
+
+        if ($deleted) {
+            return $this->respondDeleted(['message' => 'Employee deleted successfully.']);
+        } else {
+            return $this->failNotFound('Employee not found or already deleted.');
+        }
+    } catch (Exception $e) {
+        return $this->failServerError($e->getMessage());
     }
+}
 
     public function updateEmployee()
     {
