@@ -27,36 +27,43 @@ class EmployeeController extends ResourceController
     }
 
     public function addEmployee()
-    {
-        try {
-            $json = $this->request->getJSON(true);
+{
+    try {
+        $json = $this->request->getJSON(true);
 
-            $requiredFields = ['name', 'age', 'skills', 'address', 'designation'];
+        $requiredFields = ['name', 'age', 'skills', 'address', 'designation'];
 
-            foreach ($requiredFields as $field) {
-                if (empty($json[$field])) {
-                    return $this->failValidationError(ucfirst($field) . ' is required.');
-                }
+        foreach ($requiredFields as $field) {
+            if (empty($json[$field])) {
+                return $this->failValidationError(ucfirst($field) . ' is required.');
             }
-
-            $employeeData = [
-                'name' => $json['name'],
-                'age' => $json['age'],
-                'skills' => $json['skills'],
-                'address' => $json['address'],
-                'designation' => $json['designation'],
-            ];
-
-            $this->model->insertData("employees", $employeeData);
-
-            return $this->respondCreated([
-                'message' => 'Employee added successfully',
-                'data' => $employeeData
-            ]);
-        } catch (Exception $e) {
-            return $this->failServerError($e->getMessage());
         }
+
+        $employeeData = [
+            'name' => $json['name'],
+            'age' => $json['age'],
+            'skills' => $json['skills'],
+            'address' => $json['address'],
+            'designation' => $json['designation'],
+        ];
+
+        $this->model->insertData("employees", $employeeData);
+
+        return $this->respondCreated([
+            'message' => 'Employee added successfully',
+            'data' => $employeeData
+        ]);
+    } catch (\Throwable $e) {
+        log_message('error', $e->getMessage());
+
+        return $this->respond([
+            'status' => 500,
+            'error' => true,
+            'message' => 'An internal error occurred.'
+        ], 500);
     }
+}
+
 
 
     // public function deleteEmployee()
