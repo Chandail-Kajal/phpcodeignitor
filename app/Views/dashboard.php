@@ -6,79 +6,108 @@
   <title>Employee Records</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- XLSX Export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+  <!-- jsPDF for PDF export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+  <style>
+    #loaderOverlay {
+      display: none !important;
+    }
+  </style>
 </head>
-<!-- Delete Confirmation Modal -->
-<!-- Export Modal -->
-<div class="modal fade" id="exportModal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Export Data</h5>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div class="form-group">
-          <label><input type="radio" name="whichExport" value="all" checked> All Records</label><br>
-          <label><input type="radio" name="whichExport" value="current"> Displayed Records</label>
+
+<body class="bg-light">
+
+  <!-- Export Modal -->
+  <div class="modal fade" id="exportModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content shadow">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title">Export Data</h5>
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
         </div>
-        <div class="form-group">
-          <label>Select Format</label>
-          <select class="form-control" id="exportFormat">
-            <option value="xls">Excel (.xls)</option>
-            <option value="pdf">PDF (.pdf)</option>
-          </select>
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="font-weight-bold">Export Scope</label><br>
+            <div class="form-check">
+              <input type="radio" name="whichExport" value="all" class="form-check-input" checked>
+              <label class="form-check-label">All Records</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" name="whichExport" value="current" class="form-check-input">
+              <label class="form-check-label">Displayed Records</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="font-weight-bold">Select Format</label>
+            <select class="form-control" id="exportFormat">
+              <option value="xls">Excel (.xls)</option>
+              <option value="pdf">PDF (.pdf)</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <button id="startExportBtn" type="button" class="btn btn-primary">Export</button>
+        <div class="modal-footer">
+          <button class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+          <button id="startExportBtn" type="button" class="btn btn-primary">Export</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
+  <!-- Page Container -->
+  <div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-dark">Employee Records</h2>
+      <button class="btn btn-outline-danger" id="logoutBtn">Logout</button>
+    </div>
 
-
-<body>
-
-  <div class="container mt-4">
-    <h2>Employee Records</h2>
+    <!-- Alert Box -->
     <div id="alertBox" class="alert d-none" role="alert"></div>
 
-    <div class="d-flex justify-content-between mb-3">
-  <div>
-    <button class="btn btn-success" id="addNewBtn">Add New Record</button>
-    <button class="btn btn-info ml-2" data-toggle="modal" data-target="#exportModal">
-      <i class="glyphicon glyphicon-download-alt"></i> Download Data
-    </button>
-  </div>
-  <button class="btn btn-danger" id="logoutBtn">Logout</button>
-</div>
+    <!-- Actions -->
+    <div class="mb-3 d-flex flex-wrap align-items-center">
+      <button class="btn btn-success mr-2" id="addNewBtn">
+        <i class="fas fa-plus"></i> Add New Record
+      </button>
+      <button class="btn btn-info" data-toggle="modal" data-target="#exportModal">
+        <i class="fas fa-download"></i> Download Data
+      </button>
+    </div>
 
-    <table id="employeeTable" class="display table table-bordered">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Name</th>
-          <th>Age</th>
-          <th>Skills</th>
-          <th>Address</th>
-          <th>Designation</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <!-- Table -->
+    <div class="table-responsive bg-white shadow rounded p-3">
+      <table id="employeeTable" class="table table-bordered table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Skills</th>
+            <th>Address</th>
+            <th>Designation</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </div>
 
-  <!-- Modal for Add/Edit -->
-  <div class="modal fade" id="empModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-      <form id="empForm">
+  <!-- Employee Form Modal -->
+  <div class="modal fade" id="empModal" tabindex="-1">
+    <div class="modal-dialog">
+      <form id="empForm" class="w-100">
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header bg-primary text-white">
             <h5 class="modal-title">Employee Form</h5>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
           <div class="modal-body">
             <input type="hidden" id="empId">
@@ -105,207 +134,51 @@
           </div>
           <div class="modal-footer">
             <button type="submit" class="btn btn-primary">Save</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
           </div>
         </div>
       </form>
     </div>
   </div>
 
-  <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Delete Modal -->
+  <div class="modal fade" id="deleteModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content shadow-sm">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">Confirm Deletion</h5>
+          <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Are you sure you want to delete this record?</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+          <button id="confirmDeleteBtn" class="btn btn-danger">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <script>
-    let table;
-    let employeeData = [];
+  <!-- Loader -->
+  <div id="loaderOverlay" class="d-flex" style="
+    display: none !important;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+  ">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
 
-    function showAlert(message, type = 'success') {
-      const alertBox = document.getElementById('alertBox');
-      alertBox.textContent = message;
-      alertBox.className = `alert alert-${type}`;
-      alertBox.classList.remove('d-none');
-
-      setTimeout(() => {
-        alertBox.classList.add('d-none');
-      }, 3000);
-    }
-
-
-    document.getElementById("logoutBtn").addEventListener("click", async () => {
-      const res = await fetch("/auth/logout")
-      if (res.ok) {
-        alert("Logged out successfully")
-        window.location.href = "/login"
-      } else {
-        alert("Logout failed")
-      }
-    })
-
-    async function loadTable() {
-      const response = await fetch('/emp');
-      const json = await response.json();
-      employeeData = json.data || [];
-
-      if (table) {
-        table.clear().rows.add(employeeData).draw();
-      } else {
-        table = $('#employeeTable').DataTable({
-          data: employeeData,
-          columns: [
-            { data: 'id' },
-            { data: 'name' },
-            { data: 'age' },
-            { data: 'skills' },
-            { data: 'address' },
-            { data: 'designation' },
-            {
-              data: null,
-              render: (data, type, row) => `
-                <button class="btn btn-warning btn-sm editBtn" data-id="${row.id}">Update</button>
-                <button class="btn btn-danger btn-sm deleteBtn" data-id="${row.id}">Delete</button>
-              `
-            }
-          ]
-        });
-      }
-    }
-
-    function fuzzyMatch(value, keyword) {
-      return value.toLowerCase().includes(keyword.toLowerCase());
-    }
-
-    function filterAndRenderTable(keyword) {
-      const filtered = employeeData.filter(emp =>
-        Object.values(emp).some(val =>
-          fuzzyMatch(String(val), keyword)
-        )
-      );
-
-      table.clear().rows.add(filtered).draw();
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      loadTable();
-
-      document.getElementById('addNewBtn').addEventListener('click', () => {
-        document.getElementById('empForm').reset();
-        document.getElementById('empId').value = '';
-        $('#empModal').modal('show');
-      });
-
-      document.getElementById('empForm').addEventListener('submit', async function (e) {
-        e.preventDefault();
-        const id = document.getElementById('empId').value;
-        const empData = {
-          name: document.getElementById('name').value,
-          age: document.getElementById('age').value,
-          skills: document.getElementById('skills').value,
-          address: document.getElementById('address').value,
-          designation: document.getElementById('designation').value
-        };
-
-        if (id) empData.id = id;
-
-        const res = await fetch('/emp', {
-          method: id ? 'PUT' : 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(empData)
-        });
-
-        if (res.ok) {
-          showAlert(id ? 'Employee updated successfully!' : 'Employee added successfully!', 'success');
-        } else {
-          showAlert('Operation failed. Please try again.', 'danger');
-        }
-
-        $('#empModal').modal('hide');
-        await loadTable();
-      });
-
-      // Event delegation for edit/delete
-      document.querySelector('#employeeTable tbody').addEventListener('click', async function (e) {
-        const target = e.target;
-
-        if (target.classList.contains('editBtn')) {
-          const id = parseInt(target.getAttribute('data-id'));
-          console.log(id)
-          const employee = employeeData.find(emp => emp.id == id);
-          if (!employee) return alert('Employee not found.');
-
-          document.getElementById('empId').value = employee.id;
-          document.getElementById('name').value = employee.name;
-          document.getElementById('age').value = employee.age;
-          document.getElementById('skills').value = employee.skills;
-          document.getElementById('address').value = employee.address;
-          document.getElementById('designation').value = employee.designation;
-          $('#empModal').modal('show');
-        }
-        if (target.classList.contains('deleteBtn')) {
-          const id = parseInt(target.getAttribute('data-id'));
-          $('#deleteModal').data('id', id).modal('show');
-        }
-
-      });
-      document.getElementById('startExportBtn').addEventListener('click', async () => {
-  const which = document.querySelector('input[name="whichExport"]:checked').value;
-  const format = document.getElementById('exportFormat').value;
-  let payload = { which, format };
-
-  if (which === 'current') {
-    const filtered = table.rows({ filter: 'applied' }).data().toArray();
-    payload.data = filtered;
-  }
-
-  $('#exportModal').modal('hide');
-
-  const res = await fetch('/employee/export', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload)
-  });
-
-  if (res.ok) {
-    const blob = await res.blob();
-    const filename = `employees_${which}_${format}.${format}`;
-    const url = window.URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    window.URL.revokeObjectURL(url);
-  } else {
-    showAlert('Export failed', 'danger');
-  }
-});
-
-    });
-    document.getElementById('confirmDeleteBtn').addEventListener('click', async () => {
-      const id = $('#deleteModal').data('id');
-
-      const res = await fetch('/emp', {
-        method: 'DELETE',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id })
-      });
-
-      $('#deleteModal').modal('hide');
-
-      if (res.ok) {
-        await loadTable();
-        showAlert('Record deleted successfully!', 'success');
-      } else {
-        showAlert('Failed to delete record.', 'danger');
-      }
-    });
-    fetch('/employee/export', { ... })
-
-
-  </script>
-
+  <!-- FontAwesome (optional for icons) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
+
+<script src="/dashboard-script.js"></script>
 
 </html>

@@ -7,21 +7,19 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::login');
 $routes->get('/login', 'Home::login');
-$routes->get('/add-emp','Home::index');
-$routes->post('/emp', 'EmployeeController::addEmployee');
-$routes->post('employee/export', 'EmployeeController::exportEmployees');
 
-
-
-$routes->post('/auth/login','AuthController::login');
-$routes->get('/auth/logout','AuthController::logout');
-
+$routes->get('/add-emp', 'Home::index', ['filter' => 'auth']);
 $routes->get('/dashboard', 'Home::dashboard', ['filter' => 'auth']);
 
-$routes->group('/emp', ['filter' => 'auth'], function (RouteCollection $routes) {
-    $routes->get('/', 'EmployeeController::getEmployees');
-    $routes->post('/', 'EmployeeController::addEmployee');
-    $routes->put('/', 'EmployeeController::updateEmployee');
-    $routes->delete('/', 'EmployeeController::deleteEmployee');
-    
+$routes->group('/api', function (RouteCollection $routes) {
+    $routes->group('auth', function (RouteCollection $routes) {
+        $routes->post('login', 'AuthController::login');
+        $routes->get('logout', 'AuthController::logout');
+    });
+    $routes->group('emp', ['filter' => 'auth'], function (RouteCollection $routes) {
+        $routes->get('', 'EmployeeController::getEmployees');
+        $routes->post('', 'EmployeeController::addEmployee');
+        $routes->put('', 'EmployeeController::updateEmployee');
+        $routes->delete('', 'EmployeeController::deleteEmployee');
+    });
 });
