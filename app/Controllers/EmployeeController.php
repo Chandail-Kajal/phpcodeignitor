@@ -6,6 +6,10 @@ use CodeIgniter\RESTful\ResourceController;
 use App\Models\Common;
 use Exception;
 
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use Dompdf\Dompdf;
+
 class EmployeeController extends ResourceController
 {
     use ResponseTrait;
@@ -27,77 +31,64 @@ class EmployeeController extends ResourceController
     }
 
     public function addEmployee()
-{
-    try {
-        $json = $this->request->getJSON(true);
+    {
+        try {
+            $json = $this->request->getJSON(true);
 
-        $requiredFields = ['name', 'age', 'skills', 'address', 'designation'];
+            $requiredFields = ['name', 'age', 'skills', 'address', 'designation'];
 
-        foreach ($requiredFields as $field) {
-            if (empty($json[$field])) {
-                return $this->failValidationError(ucfirst($field) . ' is required.');
+            foreach ($requiredFields as $field) {
+                if (empty($json[$field])) {
+                    return $this->failValidationError(ucfirst($field) . ' is required.');
+                }
             }
+
+            $employeeData = [
+                'name' => $json['name'],
+                'age' => $json['age'],
+                'skills' => $json['skills'],
+                'address' => $json['address'],
+                'designation' => $json['designation'],
+            ];
+
+            $this->model->insertData("employees", $employeeData);
+
+            return $this->respondCreated([
+                'message' => 'Employee added successfully',
+                'data' => $employeeData
+            ]);
+        } catch (\Throwable $e) {
+            log_message('error', $e->getMessage());
+
+            return $this->respond([
+                'status' => 500,
+                'error' => true,
+                'message' => 'An internal error occurred.'
+            ], 500);
         }
-
-        $employeeData = [
-            'name' => $json['name'],
-            'age' => $json['age'],
-            'skills' => $json['skills'],
-            'address' => $json['address'],
-            'designation' => $json['designation'],
-        ];
-
-        $this->model->insertData("employees", $employeeData);
-
-        return $this->respondCreated([
-            'message' => 'Employee added successfully',
-            'data' => $employeeData
-        ]);
-    } catch (\Throwable $e) {
-        log_message('error', $e->getMessage());
-
-        return $this->respond([
-            'status' => 500,
-            'error' => true,
-            'message' => 'An internal error occurred.'
-        ], 500);
     }
-}
-
-
-
-    // public function deleteEmployee()
-    // { 
-    //     try {
-    //         $json = $this->request->getJSON(true);
-    //         $empId =$json['id'];
-    //         $this->model->deleteData("employees",['id'=>$empId]);
-    //     } catch (Exception $e) {
-    //     }
-
-    // }
 
     public function deleteEmployee()
-{
-    try {
-        $json = $this->request->getJSON(true);
+    {
+        try {
+            $json = $this->request->getJSON(true);
 
-        if (empty($json['id'])) {
-            return $this->failValidationError('ID is required for deletion.');
+            if (empty($json['id'])) {
+                return $this->failValidationError('ID is required for deletion.');
+            }
+
+            $empId = $json['id'];
+            $deleted = $this->model->deleteData("employees", ['id' => $empId]);
+
+            if ($deleted) {
+                return $this->respondDeleted(['message' => 'Employee deleted successfully.']);
+            } else {
+                return $this->failNotFound('Employee not found or already deleted.');
+            }
+        } catch (Exception $e) {
+            return $this->failServerError($e->getMessage());
         }
-
-        $empId = $json['id'];
-        $deleted = $this->model->deleteData("employees", ['id' => $empId]);
-
-        if ($deleted) {
-            return $this->respondDeleted(['message' => 'Employee deleted successfully.']);
-        } else {
-            return $this->failNotFound('Employee not found or already deleted.');
-        }
-    } catch (Exception $e) {
-        return $this->failServerError($e->getMessage());
     }
-}
 
     public function updateEmployee()
     {
@@ -138,5 +129,110 @@ class EmployeeController extends ResourceController
         }
     }
 
+    // ====== Export Employees to XLS ======
+public function exportEmployees()
+{
+    try {
+        log_message('debug', 'exportEmployees called');
+
+        $json = $this->request->getJSON(true);
+        log_message('debug', 'Input JSON: ' . json_encode($json));
+
+        $which = $json['which'] ?? 'all';
+        $format = strtolower($json['format'] ?? 'xls');
+        $data = $json['data'] ?? null;
+
+        if ($which === 'current' && is_array($data)) {
+            $employees = $data;
+        } else {
+            $employees = $this->model->getRecords("employees");
+        }
+
+        if (empty($employees)) {
+            log_message('debug', 'No employees found to export.');
+            return $this->failNotFound('No employees found to export.');
+        }
+
+        log_message('debug', 'Exporting ' . count($employees) . ' employees as ' . $format);
+
+        if ($format === 'pdf') {
+            // PDF export (your existing PDF code)
+            $html = '<h3>Employee List</h3>';
+            $html .= '<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">';
+            $html .= '<thead><tr>
+                        <th>ID</th><th>Name</th><th>Age</th><th>Skills</th><th>Address</th><th>Designation</th>
+                      </tr></thead><tbody>';
+
+            foreach ($employees as $emp) {
+                $html .= '<tr>
+                            <td>' . htmlspecialchars($emp['id']) . '</td>
+                            <td>' . htmlspecialchars($emp['name']) . '</td>
+                            <td>' . htmlspecialchars($emp['age']) . '</td>
+                            <td>' . htmlspecialchars($emp['skills']) . '</td>
+                            <td>' . htmlspecialchars($emp['address']) . '</td>
+                            <td>' . htmlspecialchars($emp['designation']) . '</td>
+                          </tr>';
+            }
+            $html .= '</tbody></table>';
+
+            $dompdf = new Dompdf();
+            $dompdf->loadHtml($html);
+            $dompdf->setPaper('A4', 'portrait');
+            $dompdf->render();
+
+            $pdfContent = $dompdf->output();
+
+            return $this->response->setHeader('Content-Type', 'application/pdf')
+                                  ->setHeader('Content-Disposition', 'attachment; filename="employees_' . date('Ymd_His') . '.pdf"')
+                                  ->setBody($pdfContent);
+
+        } else {
+            // XLSX export
+            $spreadsheet = new Spreadsheet();
+            $sheet = $spreadsheet->getActiveSheet();
+
+            // Header
+            $sheet->setCellValue('A1', 'ID')
+                  ->setCellValue('B1', 'Name')
+                  ->setCellValue('C1', 'Age')
+                  ->setCellValue('D1', 'Skills')
+                  ->setCellValue('E1', 'Address')
+                  ->setCellValue('F1', 'Designation');
+
+            $row = 2;
+            foreach ($employees as $emp) {
+                $sheet->setCellValue('A' . $row, $emp['id']);
+                $sheet->setCellValue('B' . $row, $emp['name']);
+                $sheet->setCellValue('C' . $row, $emp['age']);
+                $sheet->setCellValue('D' . $row, $emp['skills']);
+                $sheet->setCellValue('E' . $row, $emp['address']);
+                $sheet->setCellValue('F' . $row, $emp['designation']);
+                $row++;
+            }
+
+            $writer = new Xlsx($spreadsheet);
+
+            // Save to a temp file in writable/temp folder (create folder if not exists)
+            $tempPath = WRITEPATH . 'temp/';
+            if (!is_dir($tempPath)) {
+                mkdir($tempPath, 0755, true);
+            }
+
+            $temp_file = tempnam($tempPath, 'xls');
+            $writer->save($temp_file);
+
+            // Return file as download response
+            return $this->response->download('employees_' . date('Ymd_His') . '.xlsx', file_get_contents($temp_file), true)
+                                  ->setFileName('employees_' . date('Ymd_His') . '.xlsx')
+                                  ->setContentType('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+
+            // Clean up temp file
+            unlink($temp_file);
+        }
+    } catch (Exception $e) {
+        log_message('error', 'Export failed: ' . $e->getMessage());
+        return $this->failServerError($e->getMessage());
+    }
+}
 
 }

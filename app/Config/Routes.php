@@ -9,6 +9,8 @@ $routes->get('/', 'Home::login');
 $routes->get('/login', 'Home::login');
 $routes->get('/add-emp','Home::index');
 $routes->post('/emp', 'EmployeeController::addEmployee');
+$routes->post('employee/export', 'EmployeeController::exportEmployees');
+
 
 
 $routes->post('/auth/login','AuthController::login');
@@ -21,4 +23,5 @@ $routes->group('/emp', ['filter' => 'auth'], function (RouteCollection $routes) 
     $routes->post('/', 'EmployeeController::addEmployee');
     $routes->put('/', 'EmployeeController::updateEmployee');
     $routes->delete('/', 'EmployeeController::deleteEmployee');
+    
 });

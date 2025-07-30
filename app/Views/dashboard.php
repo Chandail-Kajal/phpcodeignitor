@@ -7,6 +7,37 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
 </head>
+<!-- Delete Confirmation Modal -->
+<!-- Export Modal -->
+<div class="modal fade" id="exportModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Export Data</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label><input type="radio" name="whichExport" value="all" checked> All Records</label><br>
+          <label><input type="radio" name="whichExport" value="current"> Displayed Records</label>
+        </div>
+        <div class="form-group">
+          <label>Select Format</label>
+          <select class="form-control" id="exportFormat">
+            <option value="xls">Excel (.xls)</option>
+            <option value="pdf">PDF (.pdf)</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button id="startExportBtn" type="button" class="btn btn-primary">Export</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <body>
 
@@ -15,9 +46,14 @@
     <div id="alertBox" class="alert d-none" role="alert"></div>
 
     <div class="d-flex justify-content-between mb-3">
-      <button class="btn btn-success" id="addNewBtn">Add New Record</button>
-      <button class="btn btn-danger" id="logoutBtn">Logout</button>
-    </div>
+  <div>
+    <button class="btn btn-success" id="addNewBtn">Add New Record</button>
+    <button class="btn btn-info ml-2" data-toggle="modal" data-target="#exportModal">
+      <i class="glyphicon glyphicon-download-alt"></i> Download Data
+    </button>
+  </div>
+  <button class="btn btn-danger" id="logoutBtn">Logout</button>
+</div>
 
     <table id="employeeTable" class="display table table-bordered">
       <thead>
@@ -206,26 +242,68 @@
           document.getElementById('designation').value = employee.designation;
           $('#empModal').modal('show');
         }
-
         if (target.classList.contains('deleteBtn')) {
           const id = parseInt(target.getAttribute('data-id'));
-          if (confirm('Are you sure you want to delete this record?')) {
-            const res = await fetch('/emp', {
-              method: 'DELETE',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ id })
-            });
-
-            if (res.ok) {
-              await loadTable();
-              showAlert('Record deleted successfully!', 'success');
-            } else {
-              showAlert('Failed to delete record.', 'danger');
-            }
-          }
+          $('#deleteModal').data('id', id).modal('show');
         }
+
       });
+      document.getElementById('startExportBtn').addEventListener('click', async () => {
+  const which = document.querySelector('input[name="whichExport"]:checked').value;
+  const format = document.getElementById('exportFormat').value;
+  let payload = { which, format };
+
+  if (which === 'current') {
+    const filtered = table.rows({ filter: 'applied' }).data().toArray();
+    payload.data = filtered;
+  }
+
+  $('#exportModal').modal('hide');
+
+  const res = await fetch('/employee/export', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+
+  if (res.ok) {
+    const blob = await res.blob();
+    const filename = `employees_${which}_${format}.${format}`;
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    window.URL.revokeObjectURL(url);
+  } else {
+    showAlert('Export failed', 'danger');
+  }
+});
+
     });
+    document.getElementById('confirmDeleteBtn').addEventListener('click', async () => {
+      const id = $('#deleteModal').data('id');
+
+      const res = await fetch('/emp', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id })
+      });
+
+      $('#deleteModal').modal('hide');
+
+      if (res.ok) {
+        await loadTable();
+        showAlert('Record deleted successfully!', 'success');
+      } else {
+        showAlert('Failed to delete record.', 'danger');
+      }
+    });
+    fetch('/employee/export', { ... })
+
+
   </script>
 
 </body>
