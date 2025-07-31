@@ -15,6 +15,8 @@ $routes->group('/api', function (RouteCollection $routes) {
     $routes->group('auth', function (RouteCollection $routes) {
         $routes->post('login', 'AuthController::login');
         $routes->get('logout', 'AuthController::logout');
+
+
     });
     $routes->group('emp', ['filter' => 'auth'], function (RouteCollection $routes) {
         $routes->get('', 'EmployeeController::getEmployees');

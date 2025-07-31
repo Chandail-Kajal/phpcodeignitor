@@ -24,6 +24,7 @@
       margin-top: 15px;
     }
   </style>
+  <style src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></style>
 </head>
 
 <body>
@@ -76,9 +77,10 @@
         const result = await response.json();
 
         if (response.ok) {
-          messageDiv.textContent = result.message || 'Login successful!';
+          messageDiv.textContent = result.message || Swal.fire("Logged out successfully!");
+     
           messageDiv.classList.add('text-success');
-          window.location.href = '/dashboard';
+         setTimeout(() => window.location.href= '/add-emp',1000);
         } else {
           messageDiv.textContent = result.message || 'Login failed';
           messageDiv.classList.add('text-danger');

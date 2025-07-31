@@ -9,6 +9,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src ="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <!-- XLSX Export -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
@@ -86,7 +87,7 @@
       <table id="employeeTable" class="table table-bordered table-hover">
         <thead class="thead-dark">
           <tr>
-            <th>#</th>
+            <th>Id</th>
             <th>Name</th>
             <th>Age</th>
             <th>Skills</th>

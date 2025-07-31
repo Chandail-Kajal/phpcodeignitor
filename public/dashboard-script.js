@@ -114,8 +114,8 @@ async function logout() {
   try {
     const res = await fetch("/api/auth/logout");
     if (res.ok) {
-      alert("Logged out successfully");
-      window.location.href = "/login";
+     Swal.fire("Logged out successfully!");
+      setTimeout(() => window.location.href="/login",2000);
     } else {
       alert("Logout failed");
     }
