@@ -113,23 +113,32 @@
             <input type="hidden" id="empId">
             <div class="form-group">
               <label>Name</label>
-              <input type="text" class="form-control" id="name" required>
+              <input type="text" class="form-control" id="name">
+              <div class="invalid-feedback" id="nameError"></div>
             </div>
+
             <div class="form-group">
               <label>Age</label>
-              <input type="number" class="form-control" id="age" required>
+              <input type="number" class="form-control" id="age">
+              <div class="invalid-feedback" id="ageError"></div>
             </div>
+
             <div class="form-group">
               <label>Skills</label>
-              <input type="text" class="form-control" id="skills" required>
+              <input type="text" class="form-control" id="skills">
+              <div class="invalid-feedback" id="skillsError"></div>
             </div>
+
             <div class="form-group">
               <label>Address</label>
-              <input type="text" class="form-control" id="address" required>
+              <input type="text" class="form-control" id="address">
+              <div class="invalid-feedback" id="addressError"></div>
             </div>
+
             <div class="form-group">
               <label>Designation</label>
-              <input type="text" class="form-control" id="designation" required>
+              <input type="text" class="form-control" id="designation">
+              <div class="invalid-feedback" id="designationError"></div>
             </div>
           </div>
           <div class="modal-footer">
@@ -141,7 +150,6 @@
     </div>
   </div>
 
-  <!-- Delete Modal -->
   <div class="modal fade" id="deleteModal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content shadow-sm">
@@ -160,7 +168,6 @@
     </div>
   </div>
 
-  <!-- Loader -->
   <div id="loaderOverlay" class="d-flex" style="
     display: none !important;
     position: fixed;
@@ -175,10 +182,9 @@
     </div>
   </div>
 
-  <!-- FontAwesome (optional for icons) -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 
-<script src="/dashboard-script.js"></script>
+<script type="module" src="/dashboard-script.js"></script>
 
 </html>
